@@ -10,7 +10,7 @@ public class Prob4 {
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
 		
-		for(int i = 0; i <= text.length(); i++) {
+		for(int i = 0; i < text.length(); i++) {
 			for (int  j= i+1; j <= i; j++) {
 				
 			}

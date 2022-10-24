@@ -24,5 +24,5 @@ public class Prob3 {
 	}
 }
 
-for(int = 1; i%2=0;i++);
+
 
