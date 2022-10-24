@@ -12,7 +12,6 @@ public class Prob03 {
 		//if 문 for문
 		for(int i =0; i<CharArray.length;i++){
 			
-			
 		}
 		
 
