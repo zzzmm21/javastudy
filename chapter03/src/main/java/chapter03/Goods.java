@@ -50,5 +50,12 @@ public class Goods {
 		return "Goods [name=" + name + ", price=" + price + ", countStock=" + countStock + ", countSold=" + countSold
 				+ "]";
 	}
+	public void showInfo() {
+		System.out.println("Goods [name=" + name + ", price=" + price + ", countStock=" + countStock + ", countSold=" + countSold
+		+ "]");
+	}
+	public int calcgetDiscountPrice(double discountRate) {
+		return (int)(price * discountRate);
+	}
 
 }

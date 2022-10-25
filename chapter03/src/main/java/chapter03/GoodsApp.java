@@ -9,7 +9,10 @@ public class GoodsApp {
 		camera.setPrice(-1);
 		camera.setCountStock(30);
 		camera.setCountSold(50);
-		System.out.println(camera);
+		camera.showInfo();
+		
+		int discountPrice = camera.calcgetDiscountPrice(0.5);
+		System.out.println("Discount Price:"+ discountPrice);
 		
 		Goods g1 = new Goods();
 		Goods g2 = new Goods();
