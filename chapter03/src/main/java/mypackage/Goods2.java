@@ -6,7 +6,7 @@ public class Goods2 {
 	int countstock; // default , 같은 패키지
 	private int countSold; // 클래스 [내부] 에서만 접근 가능 
 	
-	void m() {
+	public void m() {
 		countSold = 100;
 	}
 }
