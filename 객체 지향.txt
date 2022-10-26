@@ -1,6 +1,11 @@
 객체 지향
-
+캡슐화 , 상속 ,다형성
 1. 클래스
+private - 내부에서만(정보은닉)
+protected - 같은패키지에서만  , 상속에서 자식이 접근할때
+(디폴트) -대체적으로 잘 안쓴다
+public - 제한없는
+
 - 변수
 - 메소드
 - 생성자
@@ -14,6 +19,14 @@
 - 오버로딩(overloding)
 
 - 오버라이딩(overiding)
+
+
+void m(int a , double d)
+
+void m( double d, int b)
+
+signiture => 파라미터의 갯수, 타입, 순서
+같으면 
 
 5. 추상클래스
    인터페이스(interface)
