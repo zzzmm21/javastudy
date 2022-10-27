@@ -12,15 +12,33 @@ public class Main {
 		//pt.disappear();
 		pt1.show(false);
 		
-		Point pt2 = new ColorPoint();
-		pt2.setX(100);
-		pt2.setY(200);
-		((ColorPoint)pt2).setColor("red");
+		Point pt2 = new ColorPoint(100,200,"red");
+		//pt2.setX(100);
+		//pt2.setY(200);
+		//((ColorPoint)pt2).setColor("red");
 		
 		//drawColorPointI(pt2);
 		drawPoint(pt2);
 		pt2.show(false);
 		pt2.show(true);
+		
+		Triangle triangle = new Triangle ();
+		//drawTriangle(triangel);
+		drawShape(triangle);
+		
+		Rectangle rectangle = new Rectangle();
+		drawShape(rectangle);
+		
+		Circle circle = new Circle();
+		drawShape(circle);
+		
+	}
+	public static void draw(IDrawble drawble) {
+		
+	}
+
+	public static void drawShape(Shape shape) {
+		shape.draw();
 		
 	}
 	public static void drawPoint(Point pt) {
@@ -29,4 +47,5 @@ public class Main {
 	// public static void drawColorPointI(ColorPoint pt) {
 	// 	pt.show();
 	//}
+	
 }
