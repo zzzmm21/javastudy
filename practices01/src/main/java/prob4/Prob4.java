@@ -9,16 +9,15 @@ public class Prob4 {
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
 		
+		int length = text.length();
 		for(int i = 0; i < text.length(); i++) {
-			for (int  j= i+1; j < 20; j++) {
-		
-
-	
-			char c = text.charAt(i);
-			System.out.println(c);
+			for (int  j= 0; j <= i; j++) {
+				System.out.print( text.charAt(j));   
+			}
+			System.out.println("");
 		
 		}
-	}
+
 		
 		scanner.close();
 	}
