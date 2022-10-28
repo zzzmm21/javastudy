@@ -9,7 +9,7 @@ public class FileTest {
 	public static void main(String[] args) {
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("hello2.txt");
+			fis = new FileInputStream("hello.txt");
 			
 			int date = fis.read();
 			System.out.println((char)date);
