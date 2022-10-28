@@ -14,17 +14,26 @@ public class TV {
 		System.out.println("TV[channel=" + channel + 
 				", volume=" + volume +
 				", power=" +(power ? "on":"off") + "]");
-		
-		
-		
+	}	
+	public void power(boolean on) {
+		power = on;
 	}
+		
 	
-	public void volume(int i) {
-		// TODO Auto-generated method stub
+	
+	public void volume(boolean up) {
+		if(up) {
+			channel(channel+1);
+		}
+		else
+			channel(channel-1);
+		
 		
 	}
-	public void channel(int i) {
-		// TODO Auto-generated method stub
-		
+	public void channel(int channel) {
+		if(!power) {
+			return;
+		}
+	
 	}
 }

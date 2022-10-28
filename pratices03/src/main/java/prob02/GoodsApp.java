@@ -22,6 +22,9 @@ public class GoodsApp {
 		String name = infos[0];
 		int price = Integer.parseInt(infos[1]);
 		int countStock = Integer.parseInt(infos[2]);
+		for(int i=0; i< infos.length;i++) {
+			 line +=i;
+		}
 		// 상품 출
 		
 		Goods g1 = new Goods();

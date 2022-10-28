@@ -21,5 +21,7 @@
 		<module>chapter02</module>
 		<module>chapter03</module>
 		<module>pratices03</module>
+		<module>pratices04</module>
+		<module>practices05</module>
 	</modules>
 </project>
