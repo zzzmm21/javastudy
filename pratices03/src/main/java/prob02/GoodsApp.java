@@ -23,13 +23,13 @@ public class GoodsApp {
 		int price = Integer.parseInt(infos[1]);
 		int countStock = Integer.parseInt(infos[2]);
 		for(int i=0; i< infos.length;i++) {
-			 line +=i;
+			 infos[i] +=i;
 		}
 		// 상품 출
 		
-		Goods g1 = new Goods();
-		Goods g2 = new Goods();
-		Goods g3 = new Goods();
+		Goods g1 = new Goods(name, countStock, countStock);
+		Goods g2 = new Goods(name, countStock , countStock);
+		Goods g3 = new Goods(name, countStock , countStock);
 		
 		g1.showInfo();
 		g2.showInfo();
