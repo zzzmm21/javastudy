@@ -27,9 +27,9 @@ public class GoodsApp {
 		}
 		// 상품 출
 		
-		Goods g1 = new Goods(name, countStock, countStock);
-		Goods g2 = new Goods(name, countStock , countStock);
-		Goods g3 = new Goods(name, countStock , countStock);
+		Goods g1 = new Goods(name, price, countStock);
+		Goods g2 = new Goods(name, price , countStock);
+		Goods g3 = new Goods(name, price, countStock);
 		
 		g1.showInfo();
 		g2.showInfo();
