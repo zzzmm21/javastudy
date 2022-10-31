@@ -35,9 +35,9 @@ public class Book {
 	public void setStateCode(int stateCode) {
 		this.stateCode = stateCode;
 	}
-	public void showInfo() {
-		for(i=0; i< Book;)
-		System.out.println(bookNo+ title + author);
+	  public String showinfo()
+	    {
+	        return "Book[num : " +this.bookNo +"] [title : "+this.title +"] [author : "+this.author+"])";
+	    }
 
-	}
 }

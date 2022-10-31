@@ -12,8 +12,7 @@ public class Account {
 		
 	}
 
-
-
+	
 
 	public String getAccount() {
 		return account;
