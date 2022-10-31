@@ -11,13 +11,15 @@ public class StringTest04 {
 		System.out.println(s1);
 //	
 //		String s2 ="";
-//		for(int i =0 ; i<=9; i++) {
+//		for(int i =0 ; i<=100000; i++) {
 //			s2 = s2+i;
 //			//new StringBuffer(s2).append(i).toString();
 //			
 //		}
+		
+		// 1000000 많은 연산을 할경우 stringBuffer 처리가 더 효과적이다
 		StringBuffer sb2 = new StringBuffer("");
-		for(int i = 0 ;i <= 10000; i++) {
+		for(int i = 0 ;i <= 100000; i++) {
 			sb2.append(i);
 		}
 		
