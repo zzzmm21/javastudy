@@ -21,6 +21,7 @@ public class VectorTest01 {
 		
 		// 삭제
 		v.removeElement(2);
+		
 		System.out.println("========");
 		
 		// 순회2
@@ -33,3 +34,5 @@ public class VectorTest01 {
 	}
 
 }
+		
+	
