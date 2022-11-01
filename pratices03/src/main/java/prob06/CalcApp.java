@@ -28,7 +28,7 @@ public class CalcApp {
 			
 			switch( tokens[ 1 ] ) {
 				case "+" : {
-					Arith add = new Arith();
+					Arith add = new Arith(rValue, rValue, rValue, rValue);
 					add.add(lValue, rValue);
 					int result = add.getAdd();
 					System.out.println( ">> " + result );
@@ -36,7 +36,7 @@ public class CalcApp {
 					break;
 				}
 				case "-" : {
-					Arith sub = new Arith();
+					Arith sub = new Arith(rValue, rValue, rValue, rValue);
 					sub.sub( lValue, rValue );
 					int result = sub.getSub();
 					System.out.println( ">> " + result );
@@ -44,7 +44,7 @@ public class CalcApp {
 					break;
 				}
 				case "*" : {
-					Arith mul = new Arith();
+					Arith mul = new Arith(rValue, rValue, rValue, rValue);
 					mul.mul( lValue, rValue );
 					int result = mul.getMul();
 					System.out.println( ">> " + result );
@@ -52,7 +52,7 @@ public class CalcApp {
 					break;					
 				}
 				case "/" : {
-					Arith div = new Arith();
+					Arith div = new Arith(rValue, rValue, rValue, rValue);
 					div.div( lValue, rValue );
 					int result = div.getDiv();
 					System.out.println( ">> " + result );

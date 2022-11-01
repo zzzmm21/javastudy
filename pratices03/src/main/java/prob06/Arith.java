@@ -7,7 +7,7 @@ public class Arith {
 	private int mul;
 	
 	
-	public void Arith(int add, int sub , int div , int mul) {
+	public Arith(int add, int sub , int div , int mul) {
 		this.add = add;
 		this.sub = sub;
 		this.div = div;

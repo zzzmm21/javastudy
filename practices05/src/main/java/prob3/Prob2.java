@@ -12,6 +12,6 @@ public class Prob2 {
 		bird02.setName("짹짹이");
 		bird02.fly();
 		bird02.sing();
-		System.out.println( bird02 );
+		System.out.println(bird02);
 	}
 }
