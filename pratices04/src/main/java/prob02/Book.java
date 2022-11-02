@@ -4,11 +4,21 @@ public class Book {
 	private int bookNo;
 	private String title;
 	private String author;
-	private int stateCode; // 0: 재고 있음 , 1 : 대여중
+	private boolean stateCode; // 0: 재고 있음 , 1 : 대여중
+	private int rent;
 	public Book(int bookNo, String title, String author) {
-		this.bookNo =bookNo;
+		this.bookNo = bookNo;
 		this.title = title;
 		this.author = author;
+		
+	}
+	public void stateCode() {
+		if(bookNo == 1) {
+			rent = 1;		}
+		else {
+			rent =0 ;
+		}
+		
 		
 	}
 	public int getBookNo() {
@@ -35,9 +45,9 @@ public class Book {
 	public void setStateCode(int stateCode) {
 		this.stateCode = stateCode;
 	}
-	  public String showinfo()
+	  public void showinfo()
 	    {
-	        return "Book[num : " +this.bookNo +"] [title : "+this.title +"] [author : "+this.author+"])";
+	        System.out.println("Book[num : " +bookNo +"] [title : "+title +"] [author : "+author+"])대여중"+rent);
 	    }
 
 }

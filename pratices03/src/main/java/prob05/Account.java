@@ -11,8 +11,9 @@ public class Account {
 		this.account = account;
 		
 	}
-	public Account(String Account ) {
+	public Account(String Account) {
 		System.out.println(Account+"계좌가 개설 되었습니다.");
+	
 	
 	
 	}
@@ -42,7 +43,7 @@ public class Account {
 
 
 	public String getAccountNo() {
-		return accountNo;
+		return "078-3762-293";
 	}
 	public void setAccountNo(String accountNo) {
 		this.accountNo = accountNo;
