@@ -13,26 +13,22 @@ public class VectorTest01 {
 		v.addElement("마이콜");
 		v.addElement("도우너");
 		
-		//순회 1
+		// 순회1
 		for(int i = 0; i < v.size(); i++) {
 			String s = v.elementAt(i);
 			System.out.println(s);
 		}
 		
 		// 삭제
-		v.removeElement(2);
+		v.removeElementAt(2);
 		
-		System.out.println("========");
+		System.out.println("====================");
 		
 		// 순회2
-		Enumeration<String>e = v.elements();
+		Enumeration<String> e = v.elements();
 		while(e.hasMoreElements()) {
 			String s = e.nextElement();
 			System.out.println(s);
-		}
-		
+		}		
 	}
-
 }
-		
-	
