@@ -4,7 +4,7 @@ public class MainApp3 {
 
 	public static void main(String[] args) {
 		try {
-			MyStack03<String> stack = new MyStack03(3);
+			MyStack03<String> stack = new MyStack03<>(3);
 			stack.push("Hello");
 			stack.push("World");
 			stack.push("!!!");
@@ -18,7 +18,7 @@ public class MainApp3 {
 
 			System.out.println("======================================");
 
-			stack = new MyStack(3);
+			stack = new MyStack03<>(3);
 			stack.push("Hello");
 
 			System.out.println(stack.pop());
